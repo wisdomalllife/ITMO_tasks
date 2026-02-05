@@ -1,0 +1,4 @@
+1. Select a single-cell RNAseq or spatial RNAseq dataset and perform a basic analysis
+2. Preprocessing: filtering out bad cells and normalization
+3. UMAP + clustering
+4. Marker selection for clusters

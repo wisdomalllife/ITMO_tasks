@@ -1,0 +1,6 @@
+1. Create a kallisto index from suitable transcriptome
+2. Run kallisto quant with respective index
+3. Perform DE analysis with DESeq2 (show volcano plot as a result and provide summary of results: how many up and downregulated genes)
+4. Run consistency tests (PCA, distance matrix, heatmap of most expressed genes)
+5. Run GO and KEGG enrichment (at least a couple of plots for each analysis) with clusterProfiler
+6. Run GSEA and report GSEA plot with top 10 up and downregulated enriched pathways
