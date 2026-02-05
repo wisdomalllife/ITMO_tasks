@@ -10,3 +10,4 @@ tar -tf 1000G.tar.gz | while read file; do 										#  lists all the files cont
 		echo -e "$file\t$variants\t$samples" >> $output_file 					# file name, number of variants, and number of samples, separated by tabs
 	done
 
+#another possible option to calculate # of columns: convert a header line into 1 column: grep  "^#CHROM" | tr '\t' '\n'
