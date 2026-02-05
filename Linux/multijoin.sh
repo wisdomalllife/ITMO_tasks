@@ -4,8 +4,8 @@ echo hello
 #file1="BLCA.txt"
 output="output.txt"
 
-#/home/victoria/homework2/result/samples/BRCA.txt
-for file in /home/victoria/homework2/result/samples/*.txt; do 
+#/homework2/result/samples/BRCA.txt
+for file in /homework2/result/samples/*.txt; do 
 	join -1 1 -2 1 -a1 -a2 -e '0' -o auto -t $'\t' $output  <(cat $file | sort -t $'\t' -k 1) > tmp; mv tmp $output 
 	done
 
